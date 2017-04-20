@@ -1,0 +1,35 @@
+{
+  "name": "isomorphic-react-express-simplified-nostate",
+  "version": "1.0.0",
+  "description": "Isomorphic Javascript with React and Express. Simplified version. No state perserving.",
+  "homepage": "https://kristin-baumann.com",
+  "author": "Kristin Baumann",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristinbaumann/isomorphic-react-express-simplified"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "cd dist && node server",
+    "webpack": "webpack",
+    "build": "webpack && cd dist && node server"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.8.0",
+    "webpack": "^1.13.1",
+    "webpack-node-externals": "^1.2.0" 
+  }
+}
